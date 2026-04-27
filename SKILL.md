@@ -1,13 +1,22 @@
 ---
 name: harmony-next
-description: HarmonyOS NEXT（API 12-23）离线参考库导航，和全链条开发流程指导
+description: HarmonyOS NEXT（API 12-23）离线文档导航 + 全链条开发流程
 ---
 
 # HarmonyOS NEXT: 离线文档导航 + 全链条开发流程
 
 ## 初始化
 
+调用技能时，先判断技能目录下是否存在 `INIT` 文件。若无，则进入初始化流程：
 
+1. **必需组件**：检查 `rg` 命令是否存在。
+   若无，提示“必须安装 rg(ripgrep) 命令才可使用此技能，请前往 https://github.com/BurntSushi/ripgrep 自行下载安装”，且在确认可用之前不得继续。
+   若有，进入下一步。
+
+2. **可选组件**：检查 `codelinter` 命令是否存在。
+   若无，提示“你可以安装 HarmonyOS Command Line Tools 以启用自动查错功能，请前往 https://developer.huawei.com/consumer/cn/download/command-line-tools-for-hmos 自行下载安装”。
+
+初始化结束后，在技能目录创建 `INIT` 文件。
 
 ## 离线文档导航
 
