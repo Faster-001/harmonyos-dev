@@ -15,42 +15,42 @@
 ### AbilityKit（应用/能力/上下文）
 - 关键词：`UIAbility` `AbilityStage` `Context` `Want` `ExtensionAbility`
 - 模块前缀：`@ohos.app.ability.` `@ohos.ability.`
-- 快速命中：`rg -n "(@ohos\\.app\\.ability\\.|@ohos\\.ability\\.|UIAbility|Want)" JsEtsAPIReference/INDEX.md | head`
+- 快速命中：`rg -n "(@ohos\\.app\\.ability\\.|@ohos\\.ability\\.|UIAbility|Want)" JsEtsAPIReference/INDEX.md`
 
 ### ArkUI（声明式 UI / 组件 / 节点）
 - 关键词：`@Entry` `@Component` `build()` `FrameNode` `UIContext` `LazyForEach`
 - 模块前缀：`@ohos.arkui.`
 - 目录倾向：`JsEtsAPIReference/topics/components/`、`JsEtsAPIReference/modules/ohos/`
-- 快速命中：`rg -n "(@ohos\\.arkui\\.|FrameNode|LazyForEach|UIContext)" JsEtsAPIReference/INDEX.md | head`
+- 快速命中：`rg -n "(@ohos\\.arkui\\.|FrameNode|LazyForEach|UIContext)" JsEtsAPIReference/INDEX.md`
 
 ### ArkTS（语言特性/并发/容器）
 - 关键词：`TaskPool` `Worker` `sendable` `collections`
-- 快速命中：`rg -n "(TaskPool|Worker|sendable|@arkts\\.)" INDEX.md | head`
+- 快速命中：`rg -n "(TaskPool|Worker|sendable|@arkts\\.)" INDEX.md`
 
 ### ArkData（数据/RDB/分布式/偏好）
 - 关键词：`rdb` `distributed` `Preferences` `Udmf`
 - 模块前缀：`@ohos.data.`
-- 快速命中：`rg -n "(@ohos\\.data\\.|rdb|Preferences|distributed)" JsEtsAPIReference/INDEX.md | head`
+- 快速命中：`rg -n "(@ohos\\.data\\.|rdb|Preferences|distributed)" JsEtsAPIReference/INDEX.md`
 
 ### MediaKit（音视频/相机/图像）
 - 关键词：`Audio` `Video` `Camera` `Image`
 - 模块前缀：`@ohos.multimedia.`
-- 快速命中：`rg -n "@ohos\\.multimedia\\.|Camera|Audio|Video|Image" JsEtsAPIReference/INDEX.md | head`
+- 快速命中：`rg -n "@ohos\\.multimedia\\.|Camera|Audio|Video|Image" JsEtsAPIReference/INDEX.md`
 
 ### ConnectivityKit（网络/蓝牙/NFC/Wi-Fi）
 - 关键词：`http` `socket` `bluetooth` `wifi` `nfc`
 - 模块前缀：`@ohos.net.` `@ohos.bluetooth.` `@ohos.nfc.` `@ohos.wifi.`
-- 快速命中：`rg -n "@ohos\\.(net|bluetooth|nfc|wifi)\\.|socket|http" JsEtsAPIReference/INDEX.md | head`
+- 快速命中：`rg -n "@ohos\\.(net|bluetooth|nfc|wifi)\\.|socket|http" JsEtsAPIReference/INDEX.md`
 
 ### Security 相关（权限/密钥/认证）
 - 关键词：`permission` `abilityAccessCtrl` `huks` `UserAuthentication`
 - 模块前缀：`@ohos.abilityAccessCtrl` `@ohos.security.`
-- 快速命中：`rg -n "@ohos\\.(abilityAccessCtrl|security\\.)|permission|huks" JsEtsAPIReference/INDEX.md | head`
+- 快速命中：`rg -n "@ohos\\.(abilityAccessCtrl|security\\.)|permission|huks" JsEtsAPIReference/INDEX.md`
 
 ### NDK（C API / 头文件镜像）
 - 关键词：`napi` `arkui` `window` `ability`
 - 入口目录：`JsEtsAPIReference/capi/headers/`
-- 快速命中：`rg -n "^capi/headers/.*(napi|arkui|window|ability).*\\.h\\.md$" JsEtsAPIReference/INDEX.md | head`
+- 快速命中：`rg -n "^capi/headers/.*(napi|arkui|window|ability).*\\.h\\.md$" JsEtsAPIReference/INDEX.md`
 
 ## Kit 全名单（仅用于识别名称）
 
