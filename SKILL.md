@@ -1,5 +1,5 @@
 ---
-name: harmony-next
+name: harmonyos-dev
 description: HarmonyOS NEXT（API 12-23）离线文档导航 + 全链条开发流程
 ---
 
