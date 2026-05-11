@@ -1,6 +1,9 @@
 ---
 name: harmonyos-dev
 description: HarmonyOS NEXT（API 12-23）离线文档导航 + 全链条开发流程
+compatibility: requires rg, codelinter
+metadata:
+  origin: linhay/harmony-next.skills
 ---
 
 # HarmonyOS NEXT: 离线文档导航 + 全链条开发流程
